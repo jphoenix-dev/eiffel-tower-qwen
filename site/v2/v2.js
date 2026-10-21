@@ -66,7 +66,7 @@
   }
   const chips = (p) => det(`label exam ${p.verified ? (p.edge ? "✓ at the edge" : "✓") : /decoys-too-easy/.test(p.bin || "") ? "– test too easy" : "✗"}`, examTip(p), "v" + (p.verified ? " ok" : "")) +
     det(p.gen == null ? "generative check –" : `generative check ${p.gen ? "✓" : "✗"}`, genTip(p), "v" + (p.gen ? " ok" : ""));
-  const pushTip = (L) => `<b>From the weights</b> (the logit lens): the words the launcher's fixed direction raises most when it fires that way.` +
+  const pushTip = (L) => `<b>From the weights</b> (the logit lens): the words the write's fixed direction raises most when it fires that way.` +
     (L < 20 ? `<br><span class="tl">Before layer 20 a neuron mostly acts through later neurons, so these words say little.</span>` : "");
   const JOBS = { amplifier: "pushes further towards what it read", eraser: "pushes against what it read", redirector: "pushes somewhere unrelated" };
   const jobTip = (j) => `<b>${j}</b>: ${JOBS[j]}.<br><span class="tl">From the weights alone. What this side reads: the input that fires it most, i.e. the gate direction plus the up direction (positive side) or minus it (negative side). What it writes: +down or −down. We take the cosine between the two: 0.2 or more = amplifier (same way), −0.2 or less = eraser (opposite way), in between = redirector (unrelated).</span>`;
@@ -116,7 +116,7 @@
     const ko = n.ko && n.ko.length ? n.ko.map((c) => `${esc(c.c)} <span class="muted">(−${c.drop.toFixed(1)})</span>`).join(", ")
       : n.ko_profile === "untested" || n.ko_profile == null ? "Not tested yet." : n.ko_profile === "no effect" ? "None of the concepts tested." : "Only weak effects.";
     const koTip = `<b>Knockouts.</b> The neuron is set to zero while the model answers questions about a concept. The drop is how much less likely the right answer gets, in log-odds (3 is roughly a 20-fold fall in the odds). Shown: drops of 0.3 or more.<br><span class="tl">Tested on the concepts our earlier runs flagged for this neuron, not on every concept.</span>`;
-    return `<div class="part ${n.ko && n.ko.length ? "half" : ""}"><div class="hd">Launcher</div>
+    return `<div class="part ${n.ko && n.ko.length ? "half" : ""}"><div class="hd">Write</div>
       <p class="muted" style="font-size:13px">${det("Positive pushes towards", pushTip(n.L))}</p><div class="words">${w(n.pushes)}</div>
       <p class="muted" style="font-size:13px">${det("Negative pushes towards", pushTip(n.L))}</p><div class="words">${w(n.pushes_neg)}</div>
       <p class="muted" style="font-size:13px;margin-top:8px">${det("Concepts lost when it's knocked out", koTip)}</p><p>${ko}</p></div>`;
