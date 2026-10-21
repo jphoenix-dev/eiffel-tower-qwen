@@ -1,0 +1,1220 @@
+{
+"context": "She spent the whole afternoon talking about [X] with her friends.",
+"panel": [
+"The [X]",
+"I just bought a new [X] and I love it.",
+"She spent the whole afternoon talking about [X] with her friends.",
+"Q: What do you know about [X]?\nA:",
+"The word \"[X]\" means",
+"Here is a list of things: apples, [X], chairs, and",
+"Breaking news today: [X]",
+"He was born in [X] and later moved to",
+"My favourite [X] is the one that",
+"import [X]\n",
+"The history of [X] goes back to",
+"They went to the [X] together on Sunday."
+],
+"examples": [
+{
+"id": "L31:10454",
+"name": "Bikes",
+"gateIsh": "wheeled",
+"posIsh": "bike",
+"negIsh": "other-wheels",
+"L": 31,
+"words": [
+{
+"w": " bikes",
+"g": 8.438,
+"u": 2.031,
+"a": 17.135,
+"why": "chosen",
+"plus": 18,
+"minus": 4,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " Cycling",
+"g": 8.125,
+"u": 0.773,
+"a": 6.282,
+"why": "chosen",
+"plus": 19,
+"minus": 3,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " cycling",
+"g": 8.562,
+"u": 1.32,
+"a": 11.303,
+"why": "chosen",
+"plus": 16,
+"minus": 6,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " MOTOR",
+"g": 7.5,
+"u": 9.438,
+"a": 70.742,
+"why": "chosen",
+"plus": 20,
+"minus": 2,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " skateboard",
+"g": 4.062,
+"u": -2.797,
+"a": -11.17,
+"why": "chosen",
+"plus": 6,
+"minus": 16,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " wheelchair",
+"g": 3.969,
+"u": -3.391,
+"a": -13.207,
+"why": "chosen",
+"plus": 6,
+"minus": 16,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " treadmill",
+"g": 7.5,
+"u": -2.625,
+"a": -19.677,
+"why": "chosen",
+"plus": 6,
+"minus": 16,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " banana",
+"g": -1.18,
+"u": 0.629,
+"a": -0.174,
+"why": "chosen",
+"plus": 9,
+"minus": 13,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " the",
+"g": 0.174,
+"u": 0.555,
+"a": 0.052,
+"why": "chosen",
+"plus": 13,
+"minus": 9,
+"n": 22,
+"by": "sign"
+},
+{
+"w": "_motor",
+"g": 6.938,
+"u": 7.031,
+"a": 48.732,
+"why": "strongest + side word in the vocabulary",
+"plus": 19,
+"minus": 3,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " motors",
+"g": 7.562,
+"u": 6.062,
+"a": 45.824,
+"why": "strongest + side word in the vocabulary",
+"plus": 20,
+"minus": 2,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " load",
+"g": 3.203,
+"u": -4.156,
+"a": -12.793,
+"why": "strongest - side word in the vocabulary",
+"plus": 5,
+"minus": 17,
+"n": 22,
+"by": "sign"
+},
+{
+"w": " denn",
+"g": 3.203,
+"u": -3.156,
+"a": -9.715,
+"why": "strongest - side word in the vocabulary",
+"plus": 5,
+"minus": 17,
+"n": 22,
+"by": "sign"
+}
+],
+"typical": {
+"w": "(an average word)",
+"g": -0.506,
+"u": 0.0,
+"a": 0.0,
+"why": "average over all tokens"
+},
+"scale": {
+"g": 11.8125,
+"u": 9.438,
+"a": 70.74212363710525
+},
+"gate": {
+"label": "Bicycles, cycling, scooters, and motorcycles, including related rider terms and their Chinese/Japanese names and emojis.",
+"short": "Bicycles, cycling, scooters, and motorcycles, including related rider terms and their Chinese/Japanese names and emojis",
+"verified": true,
+"gen": true,
+"earlier": true
+},
+"pos": {
+"label": "Tokens referring to bicycles, cycling, cyclists, or closely related two-wheeled riding, including scooters and motorcycles.",
+"short": "bicycles, cycling, cyclists, or closely related two-wheeled riding, including scooters and motorcycles",
+"verified": true,
+"gen": null,
+"earlier": true
+},
+"neg": {
+"label": "Tokens referring to other mobility or exercise activities and equipment, such as wheelchairs, skiing, treadmills, and kayaks, plus some unrelated fragments.",
+"short": "other mobility or exercise activities and equipment, such as wheelchairs, skiing, treadmills, and kayaks, plus some…",
+"verified": true,
+"gen": null,
+"earlier": true
+},
+"pushes": [
+"cycle",
+"cycles",
+"Cycle",
+"cycling",
+"-cycle",
+".cycle",
+"_cycle",
+"cyc"
+],
+"pushes_neg": [
+"奄",
+"haar",
+"_continuous",
+"延",
+"阍",
+"复查",
+"agnostic",
+"plug"
+],
+"ko": [
+{
+"c": "Bicycle",
+"drop": 9.642
+},
+{
+"c": "Cycling",
+"drop": 7.731
+},
+{
+"c": "Cycle sport",
+"drop": 5.76
+}
+],
+"job": null,
+"earlier": true
+},
+{
+"id": "L31:7508",
+"name": "Music",
+"gateIsh": "musical",
+"posIsh": "instrument",
+"negIsh": "voice",
+"L": 31,
+"words": [
+{
+"w": "Composer",
+"g": 9.625,
+"u": 1.172,
+"a": 11.279,
+"why": "gate favourite",
+"plus": 8,
+"minus": 1,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " guitarist",
+"g": 8.812,
+"u": 2.062,
+"a": 18.173,
+"why": "gate favourite",
+"plus": 13,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " conductor",
+"g": 8.625,
+"u": 1.141,
+"a": 9.836,
+"why": "gate favourite",
+"plus": 2,
+"minus": 1,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " violin",
+"g": 7.188,
+"u": 3.719,
+"a": 26.708,
+"why": "+ side favourite",
+"plus": 18,
+"minus": 1,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " viol",
+"g": 3.609,
+"u": 4.531,
+"a": 15.924,
+"why": "+ side favourite",
+"plus": 13,
+"minus": 1,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " sym",
+"g": 4.281,
+"u": 3.641,
+"a": 15.374,
+"why": "+ side favourite",
+"plus": 9,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " vocalist",
+"g": 5.969,
+"u": -4.188,
+"a": -24.93,
+"why": "- side favourite",
+"plus": 0,
+"minus": 17,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " opera",
+"g": 4.594,
+"u": -4.719,
+"a": -21.46,
+"why": "- side favourite",
+"plus": 1,
+"minus": 13,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " singer",
+"g": 4.594,
+"u": -4.094,
+"a": -18.617,
+"why": "- side favourite",
+"plus": 1,
+"minus": 14,
+"n": 22,
+"by": "favourites"
+}
+],
+"typical": {
+"w": "(an average word)",
+"g": -0.432,
+"u": 0.0,
+"a": 0.0,
+"why": "average over all tokens"
+},
+"scale": {
+"g": 10.75,
+"u": 5.84375,
+"a": 26.708324753742378
+},
+"gate": {
+"label": "Music, especially classical music and its people, instruments, and ensembles: composers such as Mozart and Bach, orchestras, violin, piano, and concerts. Tokens in several languages and music-related emojis fit this theme.",
+"short": "Music, especially classical music and its people, instruments, and ensembles: composers such as Mozart and Bach…",
+"bin": "intelligible",
+"exam": 0.984,
+"ctrl": 0.477,
+"list": true,
+"lexam": 0.998,
+"lctrl": 0.418,
+"terms": [
+"🎻",
+"␣Mozart",
+"␣guitarist",
+"ethoven",
+"␣composer",
+"composer",
+"␣orchestra",
+"␣violin",
+"␣musician",
+"演奏",
+"钢琴",
+"␣piano",
+"乐团",
+"🎼",
+"chestra",
+"音乐会",
+"Composer",
+"verture",
+"␣Composer",
+"␣Orchestra"
+],
+"verified": true,
+"edge": false,
+"gen": true,
+"words": [
+"music",
+"musique",
+"música",
+"Musik",
+"му",
+"Mozart",
+"Bach",
+"Be",
+"composer",
+"orchestra",
+"violin",
+"piano",
+"c",
+"flute"
+],
+"gen_auc": 0.839
+},
+"pos": {
+"label": "Musical instruments and orchestral music, including string, wind, and brass instruments, with some Chinese instrument names and instrument-related word fragments. “UnityEngine” and a few other tokens do not fit the main pattern.",
+"short": "Musical instruments and orchestral music, including string, wind, and brass instruments, with some Chinese instrument…",
+"bin": "intelligible",
+"exam": 0.982,
+"ctrl": 0.499,
+"list": true,
+"lexam": 0.981,
+"lctrl": 0.476,
+"terms": [
+"🎻",
+"␣violin",
+"🎺",
+"␣Symphony",
+"箫",
+"␣Gibson",
+"🎷",
+"琵",
+"␣flute",
+"吉他",
+"␣guitar",
+"chestra",
+"␣orchest",
+"␣Guitar",
+"␣guit",
+"␣orchestra",
+"␣Orchestra",
+"␣trumpet",
+"strument",
+"乐器"
+],
+"verified": true,
+"edge": false,
+"gen": true,
+"words": [
+"violin",
+"viol",
+"c",
+"contr",
+"har",
+"guitar",
+"mand",
+"flute",
+"pic",
+"o",
+"clar",
+"bass",
+"sax",
+"trumpet"
+],
+"gen_auc": 0.843
+},
+"neg": {
+"label": "Related to singing and vocal music: singers, voices, choirs, concerts, opera, and genres such as jazz, blues, rock, and pop. The terms appear in several languages and scripts.",
+"short": "singing and vocal music: singers, voices, choirs, concerts, opera, and genres such as jazz, blues, rock, and pop",
+"bin": "intelligible",
+"exam": 0.856,
+"ctrl": 0.449,
+"list": true,
+"lexam": 0.901,
+"lctrl": 0.373,
+"terms": [
+"␣vocalist",
+"歌手",
+"␣singers",
+"␣aria",
+"␣singer",
+"␣choir",
+"␣hát",
+"🎤",
+"␣giọng",
+"␣Sinatra",
+"␣blues",
+"演唱会",
+"␣opera",
+"␣vocals",
+"␣jazz",
+"␣Jazz",
+"␣бел",
+"␣Girl",
+"京剧",
+"␣concert"
+],
+"verified": true,
+"edge": false,
+"gen": true,
+"words": [
+"singer",
+"singing",
+"voice",
+"vocal",
+"choir",
+"chorus",
+"concert",
+"opera",
+"aria",
+"song",
+"jazz",
+"blues",
+"rock",
+"pop"
+],
+"gen_auc": 0.958
+},
+"pushes": [
+"bows",
+"bow",
+"Bow",
+"弓",
+"Str",
+"Stam",
+"tele",
+"缺"
+],
+"pushes_neg": [
+"sing",
+"Sing",
+"唱",
+"singing",
+"sings",
+"演唱",
+"sang",
+"歌唱"
+],
+"ko": [
+{
+"c": "Singing",
+"drop": 1.74
+},
+{
+"c": "Janis Joplin",
+"drop": 0.66
+},
+{
+"c": "Bassoon",
+"drop": 0.52
+},
+{
+"c": "The Four Seasons (Vivaldi)",
+"drop": 0.49
+},
+{
+"c": "Aaron Copland",
+"drop": 0.3
+},
+{
+"c": "Brandenburg Concertos",
+"drop": 0.3
+}
+],
+"job": {
+"pos": "redirector",
+"neg": "redirector",
+"c_pos": -0.003,
+"c_neg": 0.02
+},
+"earlier": false
+},
+{
+"id": "L8:5528",
+"name": "Peru",
+"gateIsh": "Peru",
+"posIsh": "Peru",
+"negIsh": null,
+"L": 8,
+"words": [
+{
+"w": " Lima",
+"g": 3.391,
+"u": 1.773,
+"a": 5.817,
+"why": "gate favourite",
+"plus": 11,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " llam",
+"g": 3.234,
+"u": 3.031,
+"a": 9.433,
+"why": "gate favourite",
+"plus": 11,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " Peru",
+"g": 3.203,
+"u": 2.562,
+"a": 7.887,
+"why": "gate favourite",
+"plus": 12,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " llama",
+"g": 3.203,
+"u": 2.828,
+"a": 8.705,
+"why": "+ side favourite",
+"plus": 11,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " ruins",
+"g": 2.781,
+"u": 1.562,
+"a": 4.092,
+"why": "+ side favourite",
+"plus": 10,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": "chia",
+"g": 1.789,
+"u": 2.266,
+"a": 3.473,
+"why": "+ side favourite",
+"plus": 9,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " Weed",
+"g": 1.438,
+"u": -1.578,
+"a": -1.833,
+"why": "- side favourite",
+"plus": 0,
+"minus": 10,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " Drum",
+"g": 1.758,
+"u": -1.07,
+"a": -1.605,
+"why": "- side favourite",
+"plus": 0,
+"minus": 10,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " Hornets",
+"g": 1.383,
+"u": -1.375,
+"a": -1.52,
+"why": "- side favourite",
+"plus": 0,
+"minus": 10,
+"n": 22,
+"by": "favourites"
+}
+],
+"typical": {
+"w": "(an average word)",
+"g": -0.21,
+"u": 0.0,
+"a": 0.0,
+"why": "average over all tokens"
+},
+"scale": {
+"g": 3.391,
+"u": 3.03125,
+"a": 9.433
+},
+"gate": {
+"label": "Strongly associated with Peru and the Andes, including place names such as Lima and Quito and regional references such as llamas and ruins. Some lower-ranked tokens are scattered plant, animal, and name fragments, but the main pattern is Andean geography and culture.",
+"short": "Peru and the Andes, including place names such as Lima and Quito and regional references such as llamas and ruins",
+"bin": "intelligible",
+"exam": 0.797,
+"ctrl": 0.489,
+"list": true,
+"lexam": 0.871,
+"lctrl": 0.591,
+"terms": [
+"␣Lima",
+"␣Peru",
+"␣llama",
+"␣llam",
+"␣peru",
+"␣ruins",
+"␣ruin",
+"␣Bolivia",
+"␣Luca",
+"quito",
+"␣cham",
+"andes",
+"␣Zika",
+"quip",
+"狳",
+"鳉",
+"␣Tup",
+"␣hemp",
+"␣cria",
+"␣kale"
+],
+"verified": true,
+"edge": false,
+"gen": true,
+"words": [
+"Peru",
+"Per",
+"And",
+"In",
+"Que",
+"A",
+"C",
+"Lima",
+"Q",
+"Are",
+"P",
+"Tit",
+"Al",
+"Mach"
+],
+"gen_auc": 0.893
+},
+"pos": {
+"label": "Associated with Peru and the Andes: places and Inca-era ruins, along with regional crops and animals such as quinoa, chia, coca, and llamas. Some tokens are word fragments or unrelated outliers.",
+"short": "Peru and the Andes: places and Inca-era ruins, along with regional crops and animals such as quinoa, chia, coca, and…",
+"bin": "intelligible",
+"exam": 0.877,
+"ctrl": 0.603,
+"list": true,
+"lexam": 0.915,
+"lctrl": 0.577,
+"terms": [
+"␣kale",
+"␣Kale",
+"␣llam",
+"␣llama",
+"␣Peru",
+"␣peru",
+"␣Lima",
+"␣ruins",
+"andes",
+"quip",
+"lama",
+"␣ruin",
+"quina",
+"␣ll",
+"␣Bolivia",
+"␣Lama",
+"␣Mali",
+"␣Zika",
+"␣cous",
+"inoa"
+],
+"verified": true,
+"edge": false,
+"gen": true,
+"words": [
+"Peru",
+"And",
+"In",
+"Mach",
+"Pic",
+"C",
+"Lima",
+"Are",
+"P",
+"Tit",
+"O",
+"S",
+"Naz",
+"Que"
+],
+"gen_auc": 0.869
+},
+"neg": {
+"label": "Many of the Chinese characters are rare names for fish, plants, or other organisms, with several specifically being fish names. The English tokens are a mixed assortment of words and names, so the biological theme does not consistently cover the whole list.",
+"short": "Many of the Chinese characters are rare names for fish, plants, or other organisms, with several specifically being…",
+"bin": "list-only",
+"exam": 0.703,
+"ctrl": 0.547,
+"list": true,
+"lexam": 0.843,
+"lctrl": 0.528,
+"terms": [
+"骝",
+"椋",
+"榧",
+"鲇",
+"菘",
+"␣Weed",
+"␣Laud",
+"鲀",
+"鳊",
+"鲈",
+"鲹",
+"␣Drum",
+"␣Hornets",
+"␣Donovan",
+"␣Belt",
+"␣Freeman",
+"␣Orleans",
+"芫",
+"␣Cooper",
+"鲎"
+],
+"verified": false,
+"edge": false,
+"gen": null,
+"words": [],
+"gen_auc": null
+},
+"pushes": [
+"pto",
+"高原",
+"ayout",
+"迹",
+"卡通",
+"ortal",
+"Fac",
+"sweat"
+],
+"pushes_neg": [
+"sing",
+"void",
+"reen",
+"นาย",
+".Modules",
+"balls",
+"出具",
+"Bucc"
+],
+"ko": [
+{
+"c": "Machu Picchu",
+"drop": 1.42
+},
+{
+"c": "Andean civilizations",
+"drop": 1.16
+},
+{
+"c": "Moche culture",
+"drop": 0.93
+},
+{
+"c": "Inca Empire",
+"drop": 0.8
+},
+{
+"c": "Alpaca",
+"drop": 0.75
+},
+{
+"c": "Cusco",
+"drop": 0.63
+},
+{
+"c": "Guinea pig",
+"drop": 0.33
+},
+{
+"c": "Atacama Large Millimeter Array",
+"drop": 0.3
+}
+],
+"job": {
+"pos": "amplifier",
+"neg": "amplifier",
+"c_pos": 0.403,
+"c_neg": 0.296
+},
+"earlier": false
+},
+{
+"id": "L27:3448",
+"name": "Ghosts",
+"gateIsh": "ghostly",
+"posIsh": "ghost",
+"negIsh": "mystic",
+"L": 27,
+"words": [
+{
+"w": " spirit",
+"g": 9.625,
+"u": 4.219,
+"a": 40.603,
+"why": "gate favourite",
+"plus": 12,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " spirits",
+"g": 7.875,
+"u": 3.75,
+"a": 29.52,
+"why": "gate favourite",
+"plus": 12,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " demonic",
+"g": 7.031,
+"u": 2.469,
+"a": 17.343,
+"why": "gate favourite",
+"plus": 11,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " ghost",
+"g": 6.344,
+"u": 3.359,
+"a": 21.274,
+"why": "+ side favourite",
+"plus": 15,
+"minus": 1,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " haunting",
+"g": 6.219,
+"u": 3.141,
+"a": 19.492,
+"why": "+ side favourite",
+"plus": 13,
+"minus": 1,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " appar",
+"g": 4.812,
+"u": 3.922,
+"a": 18.722,
+"why": "+ side favourite",
+"plus": 12,
+"minus": 0,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " Psychic",
+"g": 5.781,
+"u": -1.398,
+"a": -8.06,
+"why": "- side favourite",
+"plus": 2,
+"minus": 12,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " waking",
+"g": 3.703,
+"u": -1.969,
+"a": -7.115,
+"why": "- side favourite",
+"plus": 0,
+"minus": 11,
+"n": 22,
+"by": "favourites"
+},
+{
+"w": " psychedelic",
+"g": 2.328,
+"u": -3.156,
+"a": -6.695,
+"why": "- side favourite",
+"plus": 0,
+"minus": 11,
+"n": 22,
+"by": "favourites"
+}
+],
+"typical": {
+"w": "(an average word)",
+"g": -0.989,
+"u": 0.0,
+"a": 0.0,
+"why": "average over all tokens"
+},
+"scale": {
+"g": 9.625,
+"u": 4.3125,
+"a": 40.603
+},
+"gate": {
+"label": "Tokens related to ghosts and spirits, including paranormal, supernatural, and folkloric entities or practices; Chinese characters also refer to spirits, demons, and the undead.",
+"short": "ghosts and spirits, including paranormal, supernatural, and folkloric entities or practices; Chinese characters also…",
+"bin": "intelligible",
+"exam": 1.0,
+"ctrl": 0.418,
+"list": true,
+"lexam": 1.0,
+"lctrl": 0.394,
+"terms": [
+"␣ghost",
+"␣ghosts",
+"鬼",
+"乩",
+"ghost",
+"␣psychic",
+"妖怪",
+"␣Ghost",
+"␣Spirit",
+"␣demonic",
+"␣haunted",
+"魂",
+"_ghost",
+"灵气",
+"␣paranormal",
+"␣undead",
+"spirit",
+"␣Psychic",
+"傩",
+"靈"
+],
+"verified": true,
+"edge": false,
+"gen": true,
+"words": [
+"ghost",
+"spirit",
+"phantom",
+"spect",
+"appar",
+"pol",
+"demon",
+"gh",
+"undead",
+"w",
+"reven",
+"haunting",
+"haunted",
+"paranormal"
+],
+"gen_auc": 0.971
+},
+"pos": {
+"label": "Ghosts and paranormal entities or phenomena, including spirits, demons, hauntings, and related Chinese ghost/spirit terms; “EVP” likely refers to electronic voice phenomena.",
+"short": "Ghosts and paranormal entities or phenomena, including spirits, demons, hauntings, and related Chinese ghost/spirit…",
+"bin": "intelligible",
+"exam": 0.953,
+"ctrl": 0.474,
+"list": true,
+"lexam": 0.967,
+"lctrl": 0.373,
+"terms": [
+"鬼",
+"乩",
+"魈",
+"␣ghosts",
+"␣ghost",
+"␣Ghost",
+"ghost",
+"魍",
+"Ghost",
+"_ghost",
+"␣Spirit",
+"妖怪",
+"␣demon",
+"伥",
+"␣appar",
+"␣spirit",
+"魂",
+"魑",
+"魄",
+"髑"
+],
+"verified": true,
+"edge": false,
+"gen": true,
+"words": [
+"appar",
+"phantom",
+"spect",
+"pol",
+"w",
+"shade",
+"reven",
+"bans",
+"haunting",
+"sé",
+"ect",
+"medium",
+"possession",
+"ex"
+],
+"gen_auc": 0.774
+},
+"neg": {
+"label": "Words associated with mystical or occult spirituality and altered states of consciousness, especially psychic phenomena, hypnosis, and waking or spiritual awakening. The cluster also includes related fragments and translations of waking or spiritual concepts.",
+"short": "mystical or occult spirituality and altered states of consciousness, especially psychic phenomena, hypnosis, and waking…",
+"bin": "intelligible",
+"exam": 0.865,
+"ctrl": 0.469,
+"list": true,
+"lexam": 0.871,
+"lctrl": 0.469,
+"terms": [
+"␣Magick",
+"␣hypnot",
+"␣Psychic",
+"␣psychic",
+"␣waking",
+"␣psychedelic",
+"␣existential",
+"␣mystical",
+"Wake",
+"␣occult",
+"␣Sanct",
+"␣Wake",
+"␣Sant",
+"␣psyched",
+"醒",
+"␣awakened",
+"寤",
+"Sign",
+"十字",
+"␣oxidative"
+],
+"verified": true,
+"edge": false,
+"gen": false,
+"words": [
+"psychic",
+"tele",
+"cl",
+"prec",
+"medium",
+"aura",
+"occult",
+"mystical",
+"myst",
+"hyp",
+"hypnot",
+"trance",
+"mesmer",
+"meditation"
+],
+"gen_auc": 0.613
+},
+"pushes": [
+"spirits",
+"spirit",
+"ghost",
+"灵魂",
+"ghosts",
+"鬼",
+"souls",
+"魂"
+],
+"pushes_neg": [
+"Magnum",
+"辐",
+"觐",
+"Hod",
+"Aws",
+"Є",
+"篦",
+"辎"
+],
+"ko": [
+{
+"c": "Ghost",
+"drop": 2.47
+},
+{
+"c": "Veneration of the dead",
+"drop": 0.97
+},
+{
+"c": "Mars (mythology)",
+"drop": 0.63
+},
+{
+"c": "Zombie",
+"drop": 0.51
+},
+{
+"c": "Jinn",
+"drop": 0.5
+}
+],
+"job": {
+"pos": "amplifier",
+"neg": "redirector",
+"c_pos": 0.291,
+"c_neg": -0.003
+},
+"earlier": false
+}
+]
+}

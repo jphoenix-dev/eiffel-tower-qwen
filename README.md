@@ -6,6 +6,8 @@ The source of two web pages about what individual neurons in the open language m
   the model's answers; switch them off and watch it forget. https://eiffel-tower-qwen.vercel.app/
 - **The Qwen Neuron Map** - every Qwen3-8B neuron tied to a job so far, by layer and subject.
   https://eiffel-tower-qwen.vercel.app/map/
+- **Reading neurons directly, fast** - how each part of a neuron (the gate and the two sides of up) is labelled and
+  checked, cheaply enough to do at scale, with a map of 11,000 labelled neurons. https://eiffel-tower-qwen.vercel.app/v2/
 
 The measurements come from [Model Mapper](https://github.com/jphoenix-dev/ModelMapper); the full record of how they
 were made is the Zenodo snapshot [doi:10.5281/zenodo.23459925](https://doi.org/10.5281/zenodo.23459925).
